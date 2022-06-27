@@ -14,7 +14,8 @@ public class locateByID {
     tagName = driver.findElement(By.id("email")).getTagName();
     System.out.println(tagName);
     driver.close();
-    System.exit(0);
+    //Remove exit command
+ //   System.exit(0);
     
 }
 	 
